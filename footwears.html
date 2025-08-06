@@ -1,1 +1,52 @@
-(footwears page HTML)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Footwears – Prestige Pedicraft</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.png" alt="Prestige Pedicraft Logo" />
+      <span>Prestige Pedicraft</span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="footwears.html">Footwears</a>
+      <a href="essentials.html">Essentials</a>
+      <a href="about.html">About</a>
+      <a href="#" id="cart-btn">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Footwears</h1>
+    <div class="filters">
+      <label>
+        Gender:
+        <select id="filter-gender">
+          <option value="">All</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </label>
+      <label>
+        Type:
+        <select id="filter-type">
+          <option value="">All</option>
+          <option value="slippers">Slippers</option>
+          <option value="shoes">Shoes</option>
+          <option value="sandals">Sandals</option>
+        </select>
+      </label>
+    </div>
+    <div id="footwear-products" class="product-grid"></div>
+  </main>
+  <div id="cart-modal" class="modal hidden"></div>
+  <footer>
+    &copy; 2025 Prestige Pedicraft. All rights reserved.
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
