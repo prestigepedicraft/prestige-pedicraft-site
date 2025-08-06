@@ -1,1 +1,105 @@
-(provided JSON)
+[
+  {
+    "id": "f001",
+    "name": "Royal Blue Leather Loafers",
+    "description": "Handcrafted loafers in rich royal blue leather for the modern gentleman.",
+    "category": "footwear",
+    "type": "shoes",
+    "gender": "male",
+    "image": "footwear1.jpg",
+    "price": 35000,
+    "discount": { "active": true, "amount": 5000 },
+    "colors": [
+      { "name": "Royal Blue", "hex": "#1c3287", "soldOut": false },
+      { "name": "Gold", "hex": "#bb9518", "soldOut": true }
+    ],
+    "soldOut": false,
+    "featured": true,
+    "bestseller": true,
+    "newIn": false,
+    "customizable": true,
+    "customizationFee": 10000,
+    "uplegOption": true
+  },
+  {
+    "id": "f002",
+    "name": "Ladies Gold Sandal",
+    "description": "Elegant, comfortable sandals for ladies, made from soft gold leather.",
+    "category": "footwear",
+    "type": "sandals",
+    "gender": "female",
+    "image": "footwear2.jpg",
+    "price": 25000,
+    "discount": { "active": false },
+    "colors": [
+      { "name": "Gold", "hex": "#bb9518", "soldOut": false },
+      { "name": "White", "hex": "#fff", "soldOut": false }
+    ],
+    "soldOut": false,
+    "featured": false,
+    "bestseller": true,
+    "newIn": true,
+    "customizable": true,
+    "customizationFee": 10000,
+    "uplegOption": false
+  },
+  {
+    "id": "e001",
+    "name": "Classic Leather Belt",
+    "description": "Premium handcrafted leather belt, available in multiple colors.",
+    "category": "essential",
+    "type": "belts",
+    "image": "belt1.jpg",
+    "price": 15000,
+    "discount": { "active": false },
+    "colors": [
+      { "name": "Black", "hex": "#181818", "soldOut": false },
+      { "name": "Brown", "hex": "#7b4a1f", "soldOut": false }
+    ],
+    "soldOut": false,
+    "featured": true,
+    "bestseller": false,
+    "newIn": true,
+    "customizable": true,
+    "customizationFee": 10000
+  },
+  {
+    "id": "e002",
+    "name": "Travel Watch Box (3 Slots)",
+    "description": "Keep your watches secure with our premium leather travel box.",
+    "category": "essential",
+    "type": "travel-watch-box",
+    "image": "watchbox1.jpg",
+    "price": 20000,
+    "discount": { "active": true, "percent": 10 },
+    "colors": [
+      { "name": "Royal Blue", "hex": "#1c3287", "soldOut": false },
+      { "name": "Gold", "hex": "#bb9518", "soldOut": true }
+    ],
+    "soldOut": false,
+    "featured": false,
+    "bestseller": false,
+    "newIn": false,
+    "customizable": false
+  },
+  {
+    "id": "e003",
+    "name": "Prestige Wallet",
+    "description": "Slim, stylish wallet in soft leather.",
+    "category": "essential",
+    "type": "wallets",
+    "image": "wallet1.jpg",
+    "price": 13000,
+    "discount": { "active": false },
+    "colors": [
+      { "name": "Black", "hex": "#181818", "soldOut": false },
+      { "name": "Royal Blue", "hex": "#1c3287", "soldOut": false }
+    ],
+    "soldOut": true,
+    "featured": false,
+    "bestseller": false,
+    "newIn": false,
+    "customizable": true,
+    "customizationFee": 10000
+  }
+]
