@@ -1,1 +1,44 @@
-(essentials page HTML)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Essentials – Prestige Pedicraft</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.png" alt="Prestige Pedicraft Logo" />
+      <span>Prestige Pedicraft</span>
+    </a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="footwears.html">Footwears</a>
+      <a href="essentials.html">Essentials</a>
+      <a href="about.html">About</a>
+      <a href="#" id="cart-btn">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Essentials</h1>
+    <div class="filters">
+      <label>
+        Type:
+        <select id="filter-type">
+          <option value="">All</option>
+          <option value="belts">Belts</option>
+          <option value="wallets">Wallets</option>
+          <option value="travel-watch-box">Travel Watch Box</option>
+        </select>
+      </label>
+    </div>
+    <div id="essential-products" class="product-grid"></div>
+  </main>
+  <div id="cart-modal" class="modal hidden"></div>
+  <footer>
+    &copy; 2025 Prestige Pedicraft. All rights reserved.
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
