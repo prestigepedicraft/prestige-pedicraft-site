@@ -1,13 +1,19 @@
 [
   {
     "id": "f001",
-    "name": "Royal Blue Leather Loafers",
+    "name": "Monk Strap",
     "description": "Handcrafted loafers in rich royal blue leather for the modern gentleman.",
     "category": "footwear",
     "type": "shoes",
     "gender": "male",
-    "image": "footwear1.jpg",
-    "price": 35000,
+    "images": [
+    "assets/images/shoetest/shoe1.jpg",
+    "assets/images/shoetest/Shoe2.jpg",
+    "assets/images/shoetest/shoe3.jpg",
+    "assets/images/shoetest/shoe4.jpg",
+    "assets/images/shoetest/shoe5.jpg"
+  ],
+    "price": 70000,
     "discount": { "active": true, "amount": 5000 },
     "colors": [
       { "name": "Royal Blue", "hex": "#1c3287", "soldOut": false },
